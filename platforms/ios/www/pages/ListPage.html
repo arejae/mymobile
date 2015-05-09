@@ -1,0 +1,18 @@
+<script>
+$.getScript(path+"js/ListPage.js");
+</script>
+
+<header class="bar bar-nav">
+<button id="LoadAddButton" class="btn pull-right" onClick="currentPage.loadPage('AddPage');">Load Add.html</button>
+<h1 class="title">ListPage</h1>
+</header>
+
+<div class="content">
+	<div class="content-padded">
+		<button id="LoadDetailButton" class="btn btn-positive btn-block" onClick="currentPage.loadPage('DetailPage');">Load Detail.html</button>
+	</div>
+</div>
+
+<a class="icon icon-left-nav pull-left" onClick="currentPage.back();"></a>
+<h1 class="title">DetailPage</h1>
+</header>
